@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: darkgrey;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aliceblue;
+  justify-content: center;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+input{
+  width: 250px;
+  height: 40px;
+  background-color: aliceblue;
+}
+
+#button{
+  width: 100px;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+}
+
+
+p{
+  color: red;
+  background-color: aliceblue;
+}
